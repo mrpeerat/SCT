@@ -67,8 +67,8 @@ Distillation:
 ### Train your own model
 Please set the model's parameter before training.
 ```bash
->> bash Runing_distillation_script.sh
->> bash Runing_script.sh
+>> bash Running_distillation_script.sh
+>> bash Running_script.sh
 ```
 
 For finetuning model parameters: 
