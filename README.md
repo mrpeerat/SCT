@@ -25,18 +25,18 @@ cd SCT
 pip install -e .
 ``` 
 
-## Our models (Small to Large)
+## Our models (Huggingface)
 ### Self-supervised
-- [SCT-BERT-Tiny]()
-- [SCT-BERT-Mini]()
-- [SCT-BERT-Small]()
-- [SCT-BERT-Base]()
-- [SCT-BERT-Large]()
+- [SCT-BERT-Tiny](https://huggingface.co/mrp/SCT_BERT_Tiny)
+- [SCT-BERT-Mini](https://huggingface.co/mrp/SCT_BERT_Mini)
+- [SCT-BERT-Small](https://huggingface.co/mrp/SCT_BERT_Small)
+- [SCT-BERT-Base](https://huggingface.co/mrp/SCT_BERT_Base)
+- [SCT-BERT-Large](https://huggingface.co/mrp/SCT_BERT_Large)
 ### Distillation
-- [SCT-BERT-Tiny]()
-- [SCT-BERT-Mini]()
-- [SCT-BERT-Small]()
-- [SCT-BERT-Base]()
+- [SCT-Distillation-BERT-Tiny](https://huggingface.co/mrp/SCT_Distillation_BERT_Small)
+- [SCT-Distillation-BERT-Mini](https://huggingface.co/mrp/SCT_Distillation_BERT_Mini)
+- [SCT-Distillation-BERT-Small](https://huggingface.co/mrp/SCT_Distillation_BERT_Small)
+- [SCT-Distillation-BERT-Base](https://huggingface.co/mrp/SCT_Distillation_BERT_Base)
 
 
 ## Usage
