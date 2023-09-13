@@ -90,7 +90,7 @@ import math
 import numpy as np
 from glob import glob 
 import pickle
-
+import random
 import torch
 from torch.utils.data import DataLoader
 import torch.nn as nn
@@ -99,7 +99,6 @@ from sentence_transformers import models, losses
 from sentence_transformers import SentencesDataset, LoggingHandler, SentenceTransformer, util, InputExample
 from sentence_transformers.evaluation import EmbeddingSimilarityEvaluator, SequentialEvaluator
 from sentence_transformers.datasets import ParallelSentencesDatasetForSEEDER
-from utils import set_seed
 
 logging.basicConfig(format='%(asctime)s - %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
@@ -110,7 +109,9 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-	set_seed(args.seed)
+	torch.manual_seed(args.seed)
+	random.seed(args.seed)
+	np.random.seed(args.seed)
 	print(f"Seed:{args.seed}")
 
 	device = "cuda" if torch.cuda.is_available() else "cpu"
