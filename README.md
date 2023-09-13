@@ -3,7 +3,7 @@ Implementation of [An Efficient Self-Supervised Cross-View Training For Sentence
 
 ## Citation
 ```
-@inproceedings{limkonchotiwat-etal-2022-congen,
+@inproceedings{limkonchotiwat-etal-2023-sct,
     title = "An Efficient Self-Supervised Cross-View Training For Sentence Embedding",
     author = "Limkonchotiwat, Peerat  and
       Ponwitayarat, Wuttikorn  and
