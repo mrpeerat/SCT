@@ -1,5 +1,5 @@
 # SCT
-Implementation of [An Efficient Self-Supervised Cross-View Training For Sentence Embedding (TACL 2023)]().
+Implementation of [An Efficient Self-Supervised Cross-View Training For Sentence Embedding (TACL 2023)](https://github.com/mrpeerat/SCT/blob/main/An_Efficient_Self_supervised_Cross_View_Training_For_Unsupervised_Sentence_Embedding.pdf).
 
 ## Citation
 ```
