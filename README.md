@@ -104,32 +104,32 @@ python evaluation.py \
 Self-supervised:
 | Models  | STS (Avg.) | 
 | --------------------- | ----- |
-|BERT-Tiny              | 69.73  | 
-|BERT-Mini              | 69.59  | 
-|BERT-Small             | 72.56  | 
-|BERT-Base              | 75.55  | 
-|BERT-Large             | 78.16  | 
+|[SCT-BERT-Tiny](https://huggingface.co/mrp/SCT_BERT_Tiny)              | 69.73  | 
+|[SCT-BERT-Mini](https://huggingface.co/mrp/SCT_BERT_Mini)              | 69.59  | 
+|[SCT-BERT-Small](https://huggingface.co/mrp/SCT_BERT_Small)             | 72.56  | 
+|[SCT-BERT-Base](https://huggingface.co/mrp/SCT_BERT_Base)              | 75.55  | 
+|[SCT-BERT-Large](https://huggingface.co/mrp/SCT_BERT_Large)             | 78.16  | 
 
 Distillation:
 | Models  | STS (Avg.) | 
 | --------------------- | ----- |
-|BERT-Tiny              | 76.43  | 
-|BERT-Mini              | 77.58  | 
-|BERT-Small             | 78.16  | 
-|BERT-Base              | 79.58  | 
+|[SCT-Distillation-BERT-Tiny](https://huggingface.co/mrp/SCT_Distillation_BERT_Small)             | 76.43  | 
+|[SCT-Distillation-BERT-Mini](https://huggingface.co/mrp/SCT_Distillation_BERT_Mini)              | 77.58  | 
+|[SCT-Distillation-BERT-Small](https://huggingface.co/mrp/SCT_Distillation_BERT_Small)             | 78.16  | 
+|[SCT-Distillation-BERT-Base](https://huggingface.co/mrp/SCT_Distillation_BERT_Base)              | 79.58  | 
 
 ## Downstream tasks - Reranking and NLI
 Self-supervised:
 | Models  | Reranking (Avg.) | NLI (Avg.) |
 | --------------------- | ----- | ----- |
-|BERT-Tiny              | 55.29  | 71.89  |
-|BERT-Small             | 58.59  | 75.70  |
-|BERT-Base              | 60.97  | 77.93  |
-|BERT-Large             | 63.02  | 79.55  |
+|[SCT-BERT-Tiny](https://huggingface.co/mrp/SCT_BERT_Tiny)             | 55.29  | 71.89  |
+|[SCT-BERT-Small](https://huggingface.co/mrp/SCT_BERT_Small)             | 58.59  | 75.70  |
+|[SCT-BERT-Base](https://huggingface.co/mrp/SCT_BERT_Base)              | 60.97  | 77.93  |
+|[SCT-BERT-Large](https://huggingface.co/mrp/SCT_BERT_Large)             | 63.02  | 79.55  |
 
 Distillation:
 | Models  | Reranking (Avg.) | NLI (Avg.) |
 | --------------------- | ----- | ----- |
-|BERT-Tiny              | 61.14  | 78.53  |
-|BERT-Small             | 61.94  | 80.44  |
-|BERT-Base              | 64.63  | 80.97  |
+|[SCT-Distillation-BERT-Tiny](https://huggingface.co/mrp/SCT_Distillation_BERT_Small)             | 61.14  | 78.53  |
+|[SCT-Distillation-BERT-Small](https://huggingface.co/mrp/SCT_Distillation_BERT_Small)             | 61.94  | 80.44  |
+|[SCT-Distillation-BERT-Base](https://huggingface.co/mrp/SCT_Distillation_BERT_Base)              | 64.63  | 80.97  |
