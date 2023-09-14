@@ -89,7 +89,7 @@ bash download_dataset.sh
 ```
 
 ## Evaluation - Notebook
-Please see this [notebooks]().
+Please see this [notebooks](https://github.com/mrpeerat/SCT/blob/main/notebook/STS_eval.ipynb).
 
 ## Evaluation - Python
 ```bash
