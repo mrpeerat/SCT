@@ -101,7 +101,35 @@ python evaluation.py \
 ```
 
 ## Main results - STS
-XXXXXXXX
+Self-supervised:
+| Models  | STS (Avg.) | 
+| --------------------- | ----- |
+|BERT-Tiny              | 69.73  | 
+|BERT-Mini              | 69.59  | 
+|BERT-Small             | 72.56  | 
+|BERT-Base              | 75.55  | 
+|BERT-Large             | 78.16  | 
+
+Distillation:
+| Models  | STS (Avg.) | 
+| --------------------- | ----- |
+|BERT-Tiny              | 76.43  | 
+|BERT-Mini              | 77.58  | 
+|BERT-Small             | 78.16  | 
+|BERT-Base              | 79.58  | 
 
 ## Downstream tasks - Reranking and NLI
-XXXXXXXX
+Self-supervised:
+| Models  | Reranking (Avg.) | NLI (Avg.) |
+| --------------------- | ----- | ----- |
+|BERT-Tiny              | 55.29  | 71.89  |
+|BERT-Small             | 58.59  | 75.70  |
+|BERT-Base              | 60.97  | 77.93  |
+|BERT-Large             | 63.02  | 79.55  |
+
+Distillation:
+| Models  | Reranking (Avg.) | NLI (Avg.) |
+| --------------------- | ----- | ----- |
+|BERT-Tiny              | 61.14  | 78.53  |
+|BERT-Small             | 61.94  | 80.44  |
+|BERT-Base              | 64.63  | 80.97  |
