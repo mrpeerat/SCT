@@ -89,10 +89,9 @@ bash download_dataset.sh
 ```
 
 ## Evaluation - Notebook
-Please see [notebooks]().
+Please see this [notebooks]().
 
 ## Evaluation - Python
-Then come back to the root directory, you can evaluate any `sentence transformers` models using SimCSE evaluation code. For example,
 ```bash
 python evaluation.py \
     --model_name_or_path "your-model-path" \
@@ -119,6 +118,9 @@ Distillation:
 |[SCT-Distillation-BERT-Base](https://huggingface.co/mrp/SCT_Distillation_BERT_Base)              | 79.58  | 
 
 ## Downstream tasks - Reranking and NLI
+- For the reranking evaluation code, we use [USEB](https://github.com/UKPLab/useb)
+- For the NLI evaluation code, we use [SentEval](https://github.com/facebookresearch/SentEval)
+
 Self-supervised:
 | Models  | Reranking (Avg.) | NLI (Avg.) |
 | --------------------- | ----- | ----- |
