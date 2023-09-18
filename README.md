@@ -84,7 +84,9 @@ Our evaluation code for sentence embeddings is based on a modified version of [S
 
 Before evaluation, please download the evaluation datasets by running
 ```bash
-cd SentEval/data/downstream/
+cd SentEval
+pip install -e .
+cd data/downstream/
 bash download_dataset.sh
 ```
 
