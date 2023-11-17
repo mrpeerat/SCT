@@ -14,7 +14,7 @@ setup(
     long_description=readme,
     long_description_content_type="text/markdown",
     license="Apache License 2.0",
-    url="",
+    url="https://github.com/mrpeerat/SCT",
     download_url="",
     packages=find_packages(),
     install_requires=[
