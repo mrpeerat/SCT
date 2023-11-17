@@ -28,7 +28,7 @@ setup(
         'scipy',
         'nltk',
         'sentencepiece',
-        'huggingface-hub',
+        'huggingface-hub==0.10.1',
         'protobuf',
         'prettytable',
         'pandas'
