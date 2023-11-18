@@ -7,7 +7,7 @@ with open("README.md", mode="r", encoding="utf-8") as readme_file:
 
 setup(
     name="sentence-transformers",
-    version="2.1.01",
+    version="2.1.0",
     author="Nils Reimers",
     author_email="info@nils-reimers.de",
     description="Sentence Embeddings using BERT / RoBERTa / XLM-R",
@@ -34,6 +34,7 @@ setup(
         'prettytable',
         'pandas'
     ],
+    py_modules=['sentence-transformers'],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Science/Research",
