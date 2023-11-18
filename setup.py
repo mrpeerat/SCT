@@ -6,7 +6,7 @@ with open("README.md", mode="r", encoding="utf-8") as readme_file:
 
 
 setup(
-    name="sct",
+    name="sentence-transformers",
     version="1.1.0",
     description="Sentence Embeddings using BERT / RoBERTa / XLM-R",
     long_description=readme,
@@ -14,23 +14,23 @@ setup(
     license="Apache License 2.0",
     download_url="https://github.com/mrpeerat/SCT",
     packages=find_packages(),
-    install_requires=[
-        'transformers>=4.6.0,<5.0.0',
-        'tokenizers>=0.10.3',
-        'tqdm',
-        'torch>=1.6.0',
-        'torchvision',
-        'numpy',
-        'scikit-learn',
-        'scipy',
-        'nltk',
-        'sentencepiece',
-        'huggingface-hub==0.10.1',
-        'protobuf',
-        'prettytable',
-        'pandas'
-    ],
-    py_modules=['sentence-transformers'],
+    # install_requires=[
+    #     'transformers>=4.6.0,<5.0.0',
+    #     'tokenizers>=0.10.3',
+    #     'tqdm',
+    #     'torch>=1.6.0',
+    #     'torchvision',
+    #     'numpy',
+    #     'scikit-learn',
+    #     'scipy',
+    #     'nltk',
+    #     'sentencepiece',
+    #     'huggingface-hub==0.10.1',
+    #     'protobuf',
+    #     'prettytable',
+    #     'pandas'
+    # ],
+    # py_modules=['sentence-transformers'],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Science/Research",
