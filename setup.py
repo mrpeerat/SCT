@@ -7,17 +7,13 @@ with open("README.md", mode="r", encoding="utf-8") as readme_file:
 
 setup(
     name="sentence-transformers",
-    version="2.1.0",
-    author="Nils Reimers",
-    author_email="info@nils-reimers.de",
+    version="1.1.0",
     description="Sentence Embeddings using BERT / RoBERTa / XLM-R",
     long_description=readme,
     long_description_content_type="text/markdown",
     license="Apache License 2.0",
     download_url="https://github.com/mrpeerat/SCT",
     packages=find_packages(),
-    include_package_data=True,
-    zip_safe=False,
     install_requires=[
         'transformers>=4.6.0,<5.0.0',
         'tokenizers>=0.10.3',
@@ -34,7 +30,7 @@ setup(
         'prettytable',
         'pandas'
     ],
-    py_modules=['sct'],
+    py_modules=['sentence-transformers'],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Science/Research",
