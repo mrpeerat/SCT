@@ -14,9 +14,10 @@ setup(
     long_description=readme,
     long_description_content_type="text/markdown",
     license="Apache License 2.0",
-    # url="https://github.com/UKPLab/sentence-transformers",
     download_url="https://github.com/mrpeerat/SCT",
     packages=find_packages(),
+    include_package_data=True,
+    zip_safe=False,
     install_requires=[
         'transformers>=4.6.0,<5.0.0',
         'tokenizers>=0.10.3',
