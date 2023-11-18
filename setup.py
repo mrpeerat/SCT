@@ -6,7 +6,7 @@ with open("README.md", mode="r", encoding="utf-8") as readme_file:
 
 
 setup(
-    name="sentence-transformers",
+    name="sct",
     version="1.1.0",
     description="Sentence Embeddings using BERT / RoBERTa / XLM-R",
     long_description=readme,
