@@ -720,8 +720,8 @@ class SentenceTransformer(nn.Sequential):
                         data_iterator = iter(dataloaders[train_idx])
                         data_iterators[train_idx] = data_iterator
                         data = next(data_iterator)
-
-                    if str(type(loss_model)) == "<class 'sentence_transformers.losses.ARLSymLoss_v2_distillation.ARLSymLoss_v2_distillation'>":
+                    
+                    if len(data) > 2:
                         sentence_en_features, sentence_ne_features, rep_sent_en_t, rep_sent_non_en_t = data
                     else:
                         features, labels = data
@@ -729,7 +729,7 @@ class SentenceTransformer(nn.Sequential):
                     
                     if use_amp:
                         with autocast():
-                            if str(type(loss_model)) == "<class 'sentence_transformers.losses.ARLSymLoss_v2_distillation.ARLSymLoss_v2_distillation'>":
+                            if len(data) > 2:
                                 loss_value = loss_model(sentence_en_features,
                                                         sentence_ne_features,
                                                         rep_sent_en_t,
