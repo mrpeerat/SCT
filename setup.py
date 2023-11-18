@@ -34,7 +34,7 @@ setup(
         'prettytable',
         'pandas'
     ],
-    py_modules=['sentence-transformers'],
+    py_modules=['sct'],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Science/Research",

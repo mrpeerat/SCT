@@ -10,6 +10,7 @@ sentence_transformers/util.py
 sentence_transformers.egg-info/PKG-INFO
 sentence_transformers.egg-info/SOURCES.txt
 sentence_transformers.egg-info/dependency_links.txt
+sentence_transformers.egg-info/not-zip-safe
 sentence_transformers.egg-info/requires.txt
 sentence_transformers.egg-info/top_level.txt
 sentence_transformers/cross_encoder/CrossEncoder.py
