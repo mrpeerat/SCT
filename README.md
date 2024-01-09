@@ -3,18 +3,18 @@ Implementation of [An Efficient Self-Supervised Cross-View Training For Sentence
 
 ## Citation
 ```
-@article{limkonchotiwat-etal-2023-sct,
-    title = "An Efficient Self-Supervised Cross-View Training For Sentence Embedding",
-    author = "Limkonchotiwat, Peerat  and
-      Ponwitayarat, Wuttikorn  and
-      Lowphansirikul, Lalita and
-      Udomcharoenchaikit, Can  and
-      Chuangsuwanich, Ekapol  and
-      Nutanong, Sarana",
-    journal = "Transactions of the Association for Computational Linguistics",
-    year = "2023",
-    address = "Cambridge, MA",
-    publisher = "MIT Press",
+@article{10.1162/tacl_a_00620,
+    author = {Limkonchotiwat, Peerat and Ponwitayarat, Wuttikorn and Lowphansirikul, Lalita and Udomcharoenchaikit, Can and Chuangsuwanich, Ekapol and Nutanong, Sarana},
+    title = "{An Efficient Self-Supervised Cross-View Training For Sentence Embedding}",
+    journal = {Transactions of the Association for Computational Linguistics},
+    volume = {11},
+    pages = {1572-1587},
+    year = {2023},
+    month = {12},
+    issn = {2307-387X},
+    doi = {10.1162/tacl_a_00620},
+    url = {https://doi.org/10.1162/tacl\_a\_00620},
+    eprint = {https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl\_a\_00620/2196817/tacl\_a\_00620.pdf},
 }
 ```
 
