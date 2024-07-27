@@ -99,7 +99,6 @@ import torch.nn.functional as F
 from sentence_transformers import models, losses
 from sentence_transformers import SentencesDataset, LoggingHandler, SentenceTransformer, util, InputExample
 from sentence_transformers.evaluation import EmbeddingSimilarityEvaluator, SequentialEvaluator
-from sentence_transformers.datasets import ParallelSentencesDatasetForSEEDER
 
 logging.basicConfig(format='%(asctime)s - %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
